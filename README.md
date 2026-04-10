@@ -20,3 +20,46 @@ It simulates how modern SIEM tools analyze logs, detect anomalies, and generate 
 ---
 
 ## 🏗️ Project Structure
+
+
+AI-Log-Analyzer/
+│
+├── logs/
+├── src/
+├── templates/
+├── static/
+├── app.py
+├── main.py
+├── requirements.txt
+└── README.md
+
+
+---
+
+## ⚙️ Technologies Used
+
+- Python
+- Pandas
+- Scikit-learn
+- Flask
+- HTML, CSS
+
+---
+
+## ▶️ How to Run
+
+```bash
+pip install -r requirements.txt
+python app.py
+
+Then open:
+
+http://127.0.0.1:5000/
+🎯 Use Case
+SOC Monitoring
+Brute-force Detection
+Log Analysis Automation
+
+👨‍💻 Author
+
+Rahul Gollapelly
