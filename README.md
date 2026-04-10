@@ -25,14 +25,23 @@ It simulates how modern SIEM tools analyze logs, detect anomalies, and generate 
 AI-Log-Analyzer/
 │
 ├── logs/
+│ └── auth.log
+│
 ├── src/
+│ ├── parser.py
+│ ├── model.py
+│ └── alerts.py
+│
 ├── templates/
+│ └── index.html
+│
 ├── static/
+│ └── style.css
+│
 ├── app.py
 ├── main.py
 ├── requirements.txt
 └── README.md
-
 
 ---
 
